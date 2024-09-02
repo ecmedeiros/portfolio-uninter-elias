@@ -1,0 +1,70 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ccc;
+}
+
+header {
+    background: blueviolet;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#inicio {
+    margin-top: 150px;
+    background: #f4f4f4;
+    margin-bottom: 150px;
+}
+
+#sobre {
+    background: #ddd;
+}
+
+#projetos {
+    background: #f4f4f4;
+}
+
+#contato {
+    background: #ddd;
+}
+
+.projeto {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: blueviolet;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
